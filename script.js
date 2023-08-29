@@ -56,8 +56,8 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     deleteAllTasksButton.addEventListener("click", function() {
-        tasks.length = 0; // Clear the tasks array
-        localStorage.removeItem("tasks"); // Remove tasks from local storage
-        renderTasks(); // Update the task list
+        tasks.length = 0;
+        localStorage.removeItem("tasks"); 
+        renderTasks();
     });
 });
